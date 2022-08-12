@@ -2057,7 +2057,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 #call__to__section {
   position: relative;
-  background-image: url(/assets/images/banner/banner-01.jpg);
+  background-image: url(../images/banner/banner-01.jpg);
   background-position: center;
   background-repeat: repeat; }
   #call__to__section .overlay {

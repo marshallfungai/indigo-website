@@ -115,7 +115,7 @@ export default function Layout({ children, home }) {
                         <ul className='header-nav'>
                           <li>
                           <Link href="/">
-                             <a title=''>
+                             <a  title=''>
                               Home
                             </a>
                           </Link>
@@ -123,7 +123,7 @@ export default function Layout({ children, home }) {
                           </li>
                           <li >
                             <Link href="/about">
-                              <a  title=''>
+                              <a href="about.html" title=''>
                                 About
                               </a>
                             </Link>
@@ -134,14 +134,14 @@ export default function Layout({ children, home }) {
                           </li>
                           <li >
                             <Link href="/gallery">
-                              <a  title=''>
+                              <a   href="gallery.html" title=''>
                                 Gallery
                               </a>
                             </Link>
                           </li>
                            <li >
                             <Link href="/contact">
-                              <a  title=''>
+                              <a  href="contact.html" title=''>
                                 Resevation
                               </a>
                             </Link>
