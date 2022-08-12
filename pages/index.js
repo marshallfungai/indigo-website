@@ -66,44 +66,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div
-          className='hero-bg-01'
-          
-          style={{
-            backgroundImage: 'url(./assets/images/hero/hero-02.jpg)',
-          }}
-        >
-          <div className='overlay'>
-            <div className='container'>
-              <div className='row align-items-center'>
-                <div className='col-lg-12'>
-                  <div className='hero__content__one'>
-                    <h4 className='subtitle'>The best bar </h4>
-                    <h1 className='title'>Cocktails and more to enjoy</h1>
-                    <div className='hero__social mt-30'>
-                    <ul className='d-flex'>
-                        <li>
-                          <a target='_blank' href='https://www.facebook.com/indigobarnicosia/'>
-                            <i className='fa-brands fa-facebook-f' />
-                            <span>- Facebook</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a target='_blank' href='https://www.instagram.com/indigobarnicosia/'>
-                            <i className='fa-brands fa-instagram' />
-                            <span>- Instagram</span>
-                          </a>
-                        </li>
-                      
-                      </ul>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </section>
       <section id='about__section'>
         <div className='container'>
