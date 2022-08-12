@@ -44,12 +44,10 @@
     /* Hero Slider One
     -----------------------------*/
     var $headerCarousel = $('.hero__slider__one');
-    console.log('----------$headerCarousel.length');
-    console.log($headerCarousel.length);
     if ($headerCarousel.length > 0) {
         $headerCarousel.owlCarousel({
-            loop: true,
-            autoplay: true,
+            loop: false,
+            autoplay: false,
             autoplayTimeout: 3000,
             autoplayHoverPause: true,
             margin: 0,
