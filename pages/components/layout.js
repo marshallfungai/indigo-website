@@ -129,7 +129,7 @@ export default function Layout({ children, home }) {
                             </Link>
                           </li>
                           <li >
-                            <a href='http://indigo.skybornetravel.com/'>Menu</a>
+                            <a href='https://menu.indigobarnicosia.com/#/menu/'>Menu</a>
                            
                           </li>
                           <li >
