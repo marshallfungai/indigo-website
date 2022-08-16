@@ -18,7 +18,7 @@ export default function Contact() {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='breadcrubms text-center'>
-                  <h2 className='title'>Contact Us</h2>
+                  <h2 className='title'>Bize Ulaşın</h2>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@ export default function Contact() {
                   <i className='flaticon-email' />
                 </div>
                 <div className='content'>
-                  <h4 className='title'>Email Address</h4>
+                  <h4 className='title'>E-posta</h4>
                   <ul>
                     <li>indigobarnicosia@gmail.com</li>
                   </ul>
@@ -47,7 +47,7 @@ export default function Contact() {
                   <i className='flaticon-mobile' />
                 </div>
                 <div className='content'>
-                  <h4 className='title'>Phone Number</h4>
+                  <h4 className='title'>Telefon numarası</h4>
                   <ul>
                     <li>+90 546 991 12 03</li>
                   </ul>
@@ -60,7 +60,7 @@ export default function Contact() {
                   <i className='flaticon-placeholder' />
                 </div>
                 <div className='content'>
-                  <h4 className='title'>Our Location</h4>
+                  <h4 className='title'>Adres</h4>
                   <ul>
                     <li>Asmaaltı Sokak, No:38 Nicosia</li>
                   </ul>

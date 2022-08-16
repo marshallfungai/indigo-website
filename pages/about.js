@@ -18,7 +18,7 @@ export default function About() {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='breadcrubms text-center'>
-                  <h2 className='title'>About Us</h2>
+                  <h2 className='title'>HAKKIMIZDA</h2>
                 </div>
               </div>
             </div>
@@ -30,17 +30,13 @@ export default function About() {
           <div className='row align-items-center'>
             <div className='col-lg-7 col-md-12 col-12'>
               <div className='section__title style-01'>
-                <h3 className='subtitle'>_About Us</h3>
+                <h3 className='subtitle'>_Hakkımızda</h3>
                 <h2 className='title'>
-                  <span>Since 2010 we are</span>
-                  achiving no. 01 position arround the world.
+                  <span>Zengin bir tarihle çevrili </span>
+                   eski şehirde dinlenmek için güzel bir yer..
                 </h2>
                 <p className='text mt-30'>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Please upgrade your browser
-                  to improve your experience and security.
+                  Eğlence anlayışına farklılık getiren, Lefkoşa Suriçi’nin bugünkü halini almasına öncülük eden Çıkmaz Sokak Partileri bünyesinde INDIGO Bar&Lounge sıcak atmosferi, birbirinden lezzetli kokteylleri ve eşsiz dokusuyla Ağustos 2020'den bugüne siz değerli müşterilerine hizmet vermeyi sürdürüyor...
                 </p>
               </div>
               <div className='row'>
@@ -54,13 +50,13 @@ export default function About() {
                 <div className='about-img style-01'>
                   <img src='assets/images/about.jpg' alt='about image' />
                 </div>
-                <div className='content'>
+                {/* <div className='content'>
                   <h4>
                     <span>15</span>
                     Years
                   </h4>
                   <p>Experience</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -77,9 +73,9 @@ export default function About() {
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
-                <div className='exclusive__content text-center mb-20'>
+                {/* <div className='exclusive__content text-center mb-20'>
                   <h3 className='title'>Our exclusive bar</h3>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className='row'>
@@ -88,7 +84,7 @@ export default function About() {
                   <div className='exclusive__block__overlay'>
                     <span>01.</span>
                     <h3 className='title'>
-                      <a href='#'>Cocktails, Wine & Beer</a>
+                      <a href='#'>Kokteyller, Şarap ve Bira</a>
                     </h3>
                     <p className='text'>
                       Agrecultural Loan provide low interest many variations of
@@ -102,7 +98,7 @@ export default function About() {
                   <div className='exclusive__block__overlay'>
                     <span>02.</span>
                     <h3 className='title'>
-                      <a href='#'>Nice Food</a>
+                      <a href='#'>Güzel Yemek</a>
                     </h3>
                     <p className='text'>
                       Agrecultural Loan provide low interest many variations of
@@ -116,7 +112,7 @@ export default function About() {
                   <div className='exclusive__block__overlay'>
                     <span>03.</span>
                     <h3 className='title'>
-                      <a href='#'>Coffee & Drinks</a>
+                      <a href='#'>Kahve ve İçecekler</a>
                     </h3>
                     <p className='text'>
                       Agrecultural Loan provide low interest many variations of
@@ -138,17 +134,15 @@ export default function About() {
             <div className='row'>
               <div className='col-lg-12 col-md-12'>
                 <div className='choose__title section__title style-01'>
-                  <h3 className='subtitle'>_Best Bar & Cafe </h3>
+                  <h3 className='subtitle'>_EN İYİ BAR & KAFE</h3>
                   <h2 className='title'>
-                    <span>Why people choose</span>
-                    Indigo Bar
+                    İnsanlar neden 
+                    <span>Indigo Bar'ı </span>
+                    seçiyor?
                   </h2>
-                  <p className='text mt-30'>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content your browser to improve
-                    your experience and security agrecultural Loan provide low
-                    interest many variations of passages.
-                  </p>
+                  {/* <p className='text mt-30'>
+                  Eğlence anlayışına farklılık getiren, Lefkoşa Suriçi’nin bugünkü halini almasına öncülük eden Çıkmaz Sokak Partileri bünyesinde INDIGO Bar&Lounge sıcak atmosferi, birbirinden lezzetli kokteylleri ve eşsiz dokusuyla Ağustos 2020'den bugüne siz değerli müşterilerine hizmet vermeyi sürdürüyor...
+                  </p> */}
                 </div>
               </div>
               <div className='col-lg-12 col-md-12'>

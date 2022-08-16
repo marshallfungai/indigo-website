@@ -26,8 +26,8 @@ export default function Home() {
               <div className='row align-items-center'>
                 <div className='col-lg-12'>
                   <div className='hero__content__one'>
-                    <h4 className='subtitle'>Enjoy the old City</h4>
-                    <h1 className='title'>Centuries old location for you</h1>
+                    <h4 className='subtitle'>Antik duvarlı Şehrin tadını çıkarın</h4>
+                    <h1 className='title'>Zengin bir tarihe sahip bir çevre</h1>
                     <div className='hero__social mt-30'>
                       <ul className='d-flex'>
                         <li>
@@ -87,7 +87,7 @@ export default function Home() {
                 <Link href="/about">
                   <a className='btn btn-secondary mt-40 xs-mt-40'>
                     <i className='flaticon-right icon-arrow before' />
-                    <span className='label'>Read More</span>
+                    <span className='label'>Devamını oku</span>
                     <i className='flaticon-right icon-arrow after' />
                   </a>
                   </Link>
@@ -99,13 +99,13 @@ export default function Home() {
                 <div className='about-img style-01'>
                   <img src='assets/images/about.jpg' alt='about image' />
                 </div>
-                <div className='content'>
+                {/* <div className='content'>
                   <h4>
                     <span>15</span>
                     Years
                   </h4>
                   <p>Experience</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function Home() {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='exclusive__content text-center mb-20'>
-                  <h3 className='title'>Chillout Place with friends</h3>
+                  <h3 className='title'>Arkadaşlarınızla vakit geçirin</h3>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function Home() {
                   <div className='exclusive__block__overlay'>
                     <span>01.</span>
                     <h3 className='title'>
-                      <a href='#'>Cocktails, Wine & Beer</a>
+                      <a href='#'>Kokteyller, Şarap ve Bira</a>
                     </h3>
                     <p className='text'>
                       Agrecultural Loan provide low interest many variations of
@@ -147,7 +147,7 @@ export default function Home() {
                   <div className='exclusive__block__overlay'>
                     <span>02.</span>
                     <h3 className='title'>
-                      <a href='#'>Nice Food</a>
+                      <a href='#'>Güzel yemek</a>
                     </h3>
                     <p className='text'>
                       Agrecultural Loan provide low interest many variations of
@@ -161,7 +161,7 @@ export default function Home() {
                   <div className='exclusive__block__overlay'>
                     <span>03.</span>
                     <h3 className='title'>
-                      <a href='#'>Coffee & Drinks</a>
+                      <a href='#'>Kahve ve İçecekler</a>
                     </h3>
                     <p className='text'>
                       Agrecultural Loan provide low interest many variations of
@@ -183,8 +183,8 @@ export default function Home() {
             <div className='row'>
               <div className='col-lg-6 col-md-6 col-sm-7 col-12'>
                 <div className='call__to__content'>
-                  <span className='subtitle'>Let's talk with us</span>
-                  <h2 className='title mt-20'>Happy journey with Indigo bar</h2>
+                  <span className='subtitle'>Bizimle konuş</span>
+                  <h2 className='title mt-20'>Rezervasyon yaptırmak</h2>
                   <p className='text mt-30'>
                     It is a long established fact that a reader will be
                     distracted by the readable content your browser to improve
@@ -195,7 +195,7 @@ export default function Home() {
                     <Link href='/contact'>
                       <a  className='btn btn-secondary'>
                         <i className='flaticon-right icon-arrow before' />
-                        <span className='label'>Contact Us</span>
+                        <span className='label'>Bize Ulaşın</span>
                         <i className='flaticon-right icon-arrow after' />
                       </a>
                     </Link>
@@ -209,72 +209,7 @@ export default function Home() {
           <img src='assets/images/bean_leaf.png' alt='' />
         </div>
       </section>
-      <section id='choose__section' >
-        <div className='overlay'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12 col-md-12'>
-                <div className='choose__title section__title style-01'>
-                  <h3 className='subtitle'>_Best Coffee</h3>
-                  <h2 className='title'>
-                    <span>Why people choose</span>
-                    Indigo Bar
-                  </h2>
-                  <p className='text mt-30'>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content your browser to improve
-                    your experience and security agrecultural Loan provide low
-                    interest many variations of passages.
-                  </p>
-                </div>
-              </div>
-              <div className='col-lg-12 col-md-12'>
-                <div className='row'>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>01.</span>
-                      <h4 className='title'>Spet one title</h4>
-                      <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
-                      </p>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>02.</span>
-                      <h4 className='title'>Step two title</h4>
-                      <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
-                      </p>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>03.</span>
-                      <h4 className='title'>Spet three title</h4>
-                      <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
-                      </p>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>04.</span>
-                      <h4 className='title'>Step four title</h4>
-                      <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='shape__img__one'>
-          <img src='assets/images/leaf.png' alt='' />
-        </div>
-      </section>
+   
       <section id='gallery__section'>
         <div className='container'>
           <div className='row'>

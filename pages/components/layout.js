@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Çıkmaz Sokak Partileri bünyesinde INDIGO Bar&Lounge sıcak atmosferi, birbirinden lezzetli kokteylleri ve eşsiz dokusuyla sizleri bekliyor... "
+          content="Çıkmaz Sokak Partileri bünyesinde INDIGO Bar & Lounge sıcak atmosferi, birbirinden lezzetli kokteylleri ve eşsiz dokusuyla sizleri bekliyor... "
         />
       
       </Head>
@@ -116,7 +116,7 @@ export default function Layout({ children, home }) {
                           <li>
                           <Link href="/">
                              <a  title=''>
-                              Home
+                              Ana Sayfa
                             </a>
                           </Link>
                             
@@ -124,25 +124,25 @@ export default function Layout({ children, home }) {
                           <li >
                             <Link href="/about">
                               <a href="about.html" title=''>
-                                About
+                                Hakkımızda
                               </a>
                             </Link>
                           </li>
                           <li >
-                            <a href='https://menu.indigobarnicosia.com/#/menu/'>Menu</a>
+                            <a href='https://menu.indigobarnicosia.com/#/menu/'>Menü</a>
                            
                           </li>
                           <li >
                             <Link href="/gallery">
                               <a   href="gallery.html" title=''>
-                                Gallery
+                                Galeri
                               </a>
                             </Link>
                           </li>
                            <li >
                             <Link href="/contact">
                               <a  href="contact.html" title=''>
-                                Resevation
+                                Rezervasyon
                               </a>
                             </Link>
                           </li>
@@ -152,7 +152,7 @@ export default function Layout({ children, home }) {
                           title='Close Menu'
                           className='header-overlay-close close-mobile-menu'
                         >
-                          Close
+                          Kapat
                         </a>
                       </nav>
                     </div>
@@ -164,7 +164,7 @@ export default function Layout({ children, home }) {
                         className='btn btn-secondary xs-mt-35'
                       >
                         <i className='flaticon-right icon-arrow before' />
-                        <span className='label'>Menu List</span>
+                        <span className='label'>Menü Listesi</span>
                         <i className='flaticon-right icon-arrow after' />
                       </a>
                     </div>

@@ -18,7 +18,7 @@ export default function Gallery() {
                             <div className='row'>
                                 <div className='col-lg-12'>
                                     <div className='breadcrubms text-center'>
-                                        <h2 className='title'>Gallery</h2>
+                                        <h2 className='title'>Galeri</h2>
                                     </div>
                                 </div>
                             </div>
