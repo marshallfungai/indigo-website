@@ -129,7 +129,7 @@ export default function Layout({ children, home }) {
                             </Link>
                           </li>
                           <li >
-                            <a href='https://menu.indigobarnicosia.com/#/menu/'>Menü</a>
+                            <a href='https://menu.indigobarnicosia.com'>Menü</a>
                            
                           </li>
                           <li >
@@ -160,7 +160,7 @@ export default function Layout({ children, home }) {
                   <div className='col-xl-2 col-lg-3 col-md-3 col-12'>
                     <div className='header-btn d-flex justify-content-lg-end'>
                       <a
-                        href='http://indigo.skybornetravel.com/'
+                        href='https://menu.indigobarnicosia.com'
                         className='btn btn-secondary xs-mt-35'
                       >
                         <i className='flaticon-right icon-arrow before' />
