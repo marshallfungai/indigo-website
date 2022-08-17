@@ -126,7 +126,7 @@ export default function Layout({ children, home }) {
                         <ul className='header-nav'>
                           <li>
                           
-                             <a  title=''>
+                             <a href="/" title=''>
                               Ana Sayfa
                             </a>
                        
