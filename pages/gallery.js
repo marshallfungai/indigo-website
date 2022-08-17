@@ -11,7 +11,6 @@ export default function Gallery() {
                 <div
                     id='banner-section'
                     className='page-title'
-                    data-jarallax='{"speed": 0.6}'
                 >
                     <div className='overlay'>
                         <div className='container'>
