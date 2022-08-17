@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/ehxw0wtL_nQEDf64jlKLv/_buildManifest.js",
-    "static/ehxw0wtL_nQEDf64jlKLv/_ssgManifest.js"
+    "static/yHSynmYcfIF5eNr-2WUc6/_buildManifest.js",
+    "static/yHSynmYcfIF5eNr-2WUc6/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -16,8 +16,8 @@
       "static/chunks/main-da93ed2f9c39a1c3.js",
       "static/chunks/316-3cbc05090d58d978.js",
       "static/css/ef46db3751d8e999.css",
-      "static/chunks/776-11bfc07aa4109fff.js",
-      "static/chunks/pages/index-963ae13e68db6559.js"
+      "static/chunks/776-29ed4589d860f6ac.js",
+      "static/chunks/pages/index-ed6d9de5e3b3fc94.js"
     ],
     "/_app": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
@@ -38,7 +38,7 @@
       "static/chunks/main-da93ed2f9c39a1c3.js",
       "static/chunks/316-3cbc05090d58d978.js",
       "static/css/ef46db3751d8e999.css",
-      "static/chunks/776-11bfc07aa4109fff.js",
+      "static/chunks/776-29ed4589d860f6ac.js",
       "static/chunks/pages/about-5ce264efe7ec5070.js"
     ],
     "/components/layout": [
@@ -47,7 +47,7 @@
       "static/chunks/main-da93ed2f9c39a1c3.js",
       "static/chunks/316-3cbc05090d58d978.js",
       "static/css/ef46db3751d8e999.css",
-      "static/chunks/776-11bfc07aa4109fff.js",
+      "static/chunks/776-29ed4589d860f6ac.js",
       "static/chunks/pages/components/layout-26fe223949c0d770.js"
     ],
     "/contact": [
@@ -56,7 +56,7 @@
       "static/chunks/main-da93ed2f9c39a1c3.js",
       "static/chunks/316-3cbc05090d58d978.js",
       "static/css/ef46db3751d8e999.css",
-      "static/chunks/776-11bfc07aa4109fff.js",
+      "static/chunks/776-29ed4589d860f6ac.js",
       "static/chunks/pages/contact-c11b5338fdb45a91.js"
     ],
     "/gallery": [
@@ -65,7 +65,7 @@
       "static/chunks/main-da93ed2f9c39a1c3.js",
       "static/chunks/316-3cbc05090d58d978.js",
       "static/css/ef46db3751d8e999.css",
-      "static/chunks/776-11bfc07aa4109fff.js",
+      "static/chunks/776-29ed4589d860f6ac.js",
       "static/chunks/pages/gallery-454fbcb221d9795e.js"
     ]
   },

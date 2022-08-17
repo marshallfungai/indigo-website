@@ -84,13 +84,13 @@ export default function Home() {
               </div>
               <div className='row'>
                 <div className='col-lg-12 col-md-6'>
-                <Link href="/about">
-                  <a className='btn btn-secondary mt-40 xs-mt-40'>
+                
+                  <a href="/about.html" className='btn btn-secondary mt-40 xs-mt-40'>
                     <i className='flaticon-right icon-arrow before' />
                     <span className='label'>Devamını oku</span>
                     <i className='flaticon-right icon-arrow after' />
                   </a>
-                  </Link>
+                 
                 </div>
               </div>
             </div>
@@ -192,13 +192,13 @@ export default function Home() {
                     interest many variations of passages.
                   </p>
                   <div className='call__to__btn mt-40'>
-                    <Link href='/contact'>
-                      <a  className='btn btn-secondary'>
+                    
+                      <a href='/contact.html' className='btn btn-secondary'>
                         <i className='flaticon-right icon-arrow before' />
                         <span className='label'>Bize Ulaşın</span>
                         <i className='flaticon-right icon-arrow after' />
                       </a>
-                    </Link>
+                    
                   </div>
                 </div>
               </div>
@@ -257,6 +257,7 @@ export default function Home() {
       </section>
     
     </main>
+    
     </Layout>
   );
 }

@@ -3,11 +3,22 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
 import Script from 'next/script';
+import { useState } from 'react';
 
 
 export const siteTitle = 'Indigo Bar and Cafe';
 
+
 export default function Layout({ children, home }) {
+
+  // const [showMenu, setShowMenu] = useState('show menu');
+
+  // function _toggleMenu() {
+  //   console.log('show menu');
+  //   setShowMenu('hide menu');
+  // }
+ 
+
   return (
     <div>
       <Head>
@@ -105,7 +116,7 @@ export default function Layout({ children, home }) {
                   </div>
                   <div className='col-xl-7 col-lg-6 col-md-5 col-12'>
                     <div className='header-content'>
-                      <a className='header-toggle-menu' href='#0' title='Menu'>
+                      <a className='header-toggle-menu' href='#' title='Menu'>
                         <i className='fa fa-bars' />
                       </a>
                       <nav className='header-nav-wrap'>
@@ -114,41 +125,41 @@ export default function Layout({ children, home }) {
                         </h2>
                         <ul className='header-nav'>
                           <li>
-                          <Link href="/">
+                          
                              <a  title=''>
                               Ana Sayfa
                             </a>
-                          </Link>
+                       
                             
                           </li>
                           <li >
-                            <Link href="/about">
+                         
                               <a href="about.html" title=''>
                                 Hakkımızda
                               </a>
-                            </Link>
+                         
                           </li>
                           <li >
                             <a href='https://menu.indigobarnicosia.com'>Menü</a>
                            
                           </li>
                           <li >
-                            <Link href="/gallery">
+                          
                               <a   href="gallery.html" title=''>
                                 Galeri
                               </a>
-                            </Link>
+                         
                           </li>
                            <li >
-                            <Link href="/contact">
+                      
                               <a  href="contact.html" title=''>
                                 Rezervasyon
                               </a>
-                            </Link>
+                      
                           </li>
                         </ul>
                         <a
-                          href='#0'
+                          href='#'
                           title='Close Menu'
                           className='header-overlay-close close-mobile-menu'
                         >
@@ -257,7 +268,7 @@ export default function Layout({ children, home }) {
     <Script strategy={'beforeInteractive'} src="./assets/js/jarallax.min.js"></Script>
     <Script strategy={'beforeInteractive'} src="./assets/js/swiper-bundle.js"></Script>
     <Script strategy={'beforeInteractive'}  src="./assets/js/backtotop.js"></Script>
-    <Script src="./assets/js/main.js"></Script>
+    <Script strategy={'afterInteractive'}src="./assets/js/main.js"></Script>
    
 
     </div>
