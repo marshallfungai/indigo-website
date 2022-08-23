@@ -138,7 +138,7 @@ export default function About() {
                   <h3 className='subtitle'>_EN İYİ BAR & KAFE</h3>
                   <h2 className='title'>
                     İnsanlar neden 
-                    <span>Indigo Bar'ı </span>
+                    <span> Indigo Bar'ı </span>
                     seçiyor?
                   </h2>
                   {/* <p className='text mt-30'>
@@ -151,16 +151,16 @@ export default function About() {
                   <div className='col-lg-3 col-sm-6'>
                     <div className='choose__block mt-50'>
                       <span className='choose__subtitle'>01.</span>
-                      <h4 className='title'>Spet one title</h4>
+                      <h4 className='title'>Tarihi Çevre</h4>
                       <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
+                       "Duvarlarla çevrili" şehir, keşfedilmesi harika olan tarihi bir yerdir.
                       </p>
                     </div>
                   </div>
                   <div className='col-lg-3 col-sm-6'>
                     <div className='choose__block mt-50'>
                       <span className='choose__subtitle'>02.</span>
-                      <h4 className='title'>Step two title</h4>
+                      <h4 className='title'>Geniş Bar Seçimi</h4>
                       <p className='text'>
                         Petro will helps to make contact with a perfect deal.
                       </p>
@@ -169,18 +169,18 @@ export default function About() {
                   <div className='col-lg-3 col-sm-6'>
                     <div className='choose__block mt-50'>
                       <span className='choose__subtitle'>03.</span>
-                      <h4 className='title'>Spet three title</h4>
+                      <h4 className='title'>Sakin ortam</h4>
                       <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
+                        Randevu gecesi gel, arkadaşlarınla gel. Seveceğinize söz veriyoruz.
                       </p>
                     </div>
                   </div>
                   <div className='col-lg-3 col-sm-6'>
                     <div className='choose__block mt-50'>
                       <span className='choose__subtitle'>04.</span>
-                      <h4 className='title'>Step four title</h4>
+                      <h4 className='title'>iyi komşular</h4>
                       <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
+                        Benzer harika çıkışlarla çevrili, memnun kalmayacaksınız.
                       </p>
                     </div>
                   </div>

@@ -125,18 +125,19 @@ export default function Layout({ children, home }) {
                         </h2>
                         <ul className='header-nav'>
                           <li>
-                          
-                             <a href="/" title=''>
+                          <Link href="/">
+                             <a title=''>
                               Ana Sayfa
                             </a>
-                       
+                          </Link>
                             
                           </li>
                           <li >
-                         
-                              <a href="about.html" title=''>
+                           <Link href="hakkimizda">
+                              <a  title=''>
                                 Hakkımızda
                               </a>
+                             </Link>
                          
                           </li>
                           <li >
@@ -144,17 +145,19 @@ export default function Layout({ children, home }) {
                            
                           </li>
                           <li >
-                          
-                              <a   href="gallery.html" title=''>
+                           <Link href="galeri">
+                              <a    title=''>
                                 Galeri
                               </a>
+                             </Link>
                          
                           </li>
                            <li >
-                      
-                              <a  href="contact.html" title=''>
+                             <Link href="bize-ulasin">
+                              <a   title=''>
                                 Rezervasyon
                               </a>
+                             </Link>
                       
                           </li>
                         </ul>

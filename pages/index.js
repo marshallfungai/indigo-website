@@ -46,7 +46,7 @@ export default function Home() {
                       </ul>
                     </div>
                     {/* <div className='hero__btn mt-50 xs-mt-30'>
-                      <a href='about.html' className='btn btn-primary xs-mt-10'>
+                      <a href='hakkimizda.html' className='btn btn-primary xs-mt-10'>
                         <i className='flaticon-right icon-arrow before' />
                         <span className='label'>Read More</span>
                         <i className='flaticon-right icon-arrow after' />
@@ -84,13 +84,13 @@ export default function Home() {
               </div>
               <div className='row'>
                 <div className='col-lg-12 col-md-6'>
-                
-                  <a href="/about.html" className='btn btn-secondary mt-40 xs-mt-40'>
+                <Link href="/hakkimizda">
+                  <a  className='btn btn-secondary mt-40 xs-mt-40'>
                     <i className='flaticon-right icon-arrow before' />
                     <span className='label'>Devamını oku</span>
                     <i className='flaticon-right icon-arrow after' />
                   </a>
-                 
+                  </Link>
                 </div>
               </div>
             </div>
@@ -192,12 +192,13 @@ export default function Home() {
                     interest many variations of passages.
                   </p>
                   <div className='call__to__btn mt-40'>
-                    
-                      <a href='/contact.html' className='btn btn-secondary'>
+                    <Link href='/contact' >
+                      <a className='btn btn-secondary'>
                         <i className='flaticon-right icon-arrow before' />
                         <span className='label'>Bize Ulaşın</span>
                         <i className='flaticon-right icon-arrow after' />
                       </a>
+                      </Link> 
                     
                   </div>
                 </div>
@@ -213,42 +214,7 @@ export default function Home() {
       <section id='gallery__section'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-4 col-sm-6'>
-              <div className='gallery__block mt-20'>
-                <img src='assets/images/gallery/01.jpg' alt='' />
-                
-              </div>
-            </div>
-            <div className='col-lg-4 col-sm-6'>
-              <div className='gallery__block mt-20'>
-                <img src='assets/images/gallery/02.jpg' alt='' />
-               
-              </div>
-            </div>
-            <div className='col-lg-4 col-sm-6'>
-              <div className='gallery__block mt-20'>
-                <img src='assets/images/gallery/03.jpg' alt='' />
-                
-              </div>
-            </div>
-            <div className='col-lg-4 col-sm-6'>
-              <div className='gallery__block mt-20'>
-                <img src='assets/images/gallery/04.jpg' alt='' />
-            
-              </div>
-            </div>
-            <div className='col-lg-4 col-sm-6'>
-              <div className='gallery__block mt-20'>
-                <img src='assets/images/gallery/05.jpg' alt='' />
-                
-              </div>
-            </div>
-            <div className='col-lg-4 col-sm-6'>
-              <div className='gallery__block mt-20'>
-                <img src='assets/images/gallery/06.jpg' alt='' />
-                
-              </div>
-            </div>
+         
           </div>
         </div>
         <div className='shape__img__one'>

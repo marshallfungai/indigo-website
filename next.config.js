@@ -1,10 +1,10 @@
-const nextConfig = {
-    /* config options here */
-    experimental: {
-        images: {
-          unoptimized: true,
-        },
-      },
-  }
+// const nextConfig = {
+//     /* config options here */
+//     experimental: {
+//         images: {
+//           unoptimized: true,
+//         },
+//       },
+//   }
   
-  module.exports = nextConfig
+//   module.exports = nextConfig
