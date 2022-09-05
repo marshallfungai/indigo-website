@@ -101,13 +101,7 @@ export default function Home() {
                 <div className='about-img style-01'>
                   <img src='assets/images/about.jpg' alt='about image' />
                 </div>
-                {/* <div className='content'>
-                  <h4>
-                    <span>15</span>
-                    Years
-                  </h4>
-                  <p>Experience</p>
-                </div> */}
+               
               </div>
             </div>
           </div>
@@ -125,7 +119,7 @@ export default function Home() {
               <div className='col-lg-5 col-md-12 col-12'>
                 <div className='about-img-box pl-30 xs-mt-70 md-mt-70'>
                   <div className='about-img style-01'>
-                    <img src='assets/images/about.jpg' alt='about image' />
+                    <img src='assets/images/cocktails.jpg' alt='about image' />
                   </div>
                   {/* <div className='content'>
                   <h4>
@@ -247,7 +241,7 @@ export default function Home() {
                     *Alınan rezervasyonlar saat 21.30'a kadar tutulmaktadır.
                   </p>
                   <div className='call__to__btn mt-40'>
-                    <Link href='/contact' >
+                    <Link href='/bize-ulasin' >
                       <a className='btn btn-secondary'>
                         <i className='flaticon-right icon-arrow before' />
                         <span className='label'>Bize Ulaşın</span>

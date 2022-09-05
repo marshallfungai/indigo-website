@@ -34,10 +34,13 @@ export default function About() {
                 <h3 className='subtitle'>_Hakkımızda</h3>
                 <h2 className='title'>
                   <span>Suriçi’ndeki Eviniz </span>
-                  Tarihi Suriçi dokusuyla modernliğin harmanlandığı, dünyanın dört bir yanından gelen
+                  
+                </h2>
+                <p className='text mt-30'>
+                Tarihi Suriçi dokusuyla modernliğin harmanlandığı, dünyanın dört bir yanından gelen
                   lezzetlerin, deneyimin ve yenilikçiliğin bir araya geldiği INDIGO Bar & Lounge 2020 yılından
                   beri sizlere hizmet vermeye devam ediyor.
-                </h2>
+                </p>
                 <p className='text mt-30'>
                   2013 yılında bir ilk olarak başlayan ve eğlence anlayışına farklılık getiren, Lefkoşa Suriçi’nin
                   bugünkü halini almasına öncülük eden Çıkmaz Sokak Partileri bünyesinde INDIGO Bar &
@@ -85,45 +88,37 @@ export default function About() {
               </div>
             </div>
             <div className='row'>
-              <div className='col-lg-4 col-sm-12 col-md-6'>
-                <div className='exclusive__block style-01 mt-25'>
+            <div className='col-lg-6 col-sm-12 col-md-6'>
+                <div className='exclusive__block style-02 active mt-25'>
                   <div className='exclusive__block__overlay'>
                     <span>01.</span>
                     <h3 className='title'>
-                      <a href='#'>Kokteyller, Şarap ve Bira</a>
+                      <a href='#'>Yemekler</a>
                     </h3>
                     <p className='text'>
-                      Agrecultural Loan provide low interest many variations of
-                      passages.
+                      ‘İyi bir aşçı, mutluluğu dağıtan bir büyücü gibidir’ sözünden yola çıkarak bizi tercih eden her
+                      müşterimize mutluluk dağıtmayı görev bildik.
+                    </p>
+                      <p className='text'>
+                      Soğuk kış günlerinde içinizi ısıtacak eşsiz çorbamız, ev yapımı hamburgerlerimiz ve birbirinden
+                      güzel bar yemeklerimizle sizleri mutlu edeceğimiz konusunda iddialıyız.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className='col-lg-4 col-sm-12 col-md-6'>
-                <div className='exclusive__block style-02 active mt-25'>
+              <div className='col-lg-6 col-sm-12 col-md-6'>
+                <div className='exclusive__block style-03 mt-25'>
                   <div className='exclusive__block__overlay'>
                     <span>02.</span>
                     <h3 className='title'>
-                      <a href='#'>Güzel Yemek</a>
+                      <a href='#'>Kahve</a>
                     </h3>
                     <p className='text'>
-                      Agrecultural Loan provide low interest many variations of
-                      passages.
+                      100 yılı aşkın tecrübesiyle dünyaca ünlü İtalyan kahve markası Bristot Coffee’nin eşsiz kahve
+                      çekirdekleri, INDIGO Bar’ın baristaları ellerinde eşsiz bir sanat eserine dönüşüyor. Sizlere de
+                      sadece en sevdiğiniz kahve çeşitlerini INDIGO Bar’da keyifle içmek kalıyor.
                     </p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-4 col-sm-12 col-md-6'>
-                <div className='exclusive__block style-03 mt-25'>
-                  <div className='exclusive__block__overlay'>
-                    <span>03.</span>
-                    <h3 className='title'>
-                      <a href='#'>Kahve ve İçecekler</a>
-                    </h3>
-                    <p className='text'>
-                      Agrecultural Loan provide low interest many variations of
-                      passages.
-                    </p>
+
                   </div>
                 </div>
               </div>
@@ -134,70 +129,7 @@ export default function About() {
           <img src='assets/images/leaf.png' alt='' />
         </div>
       </section>
-      <section id='choose__section' data-jarallax='{"speed": 0.6}'>
-        <div className='overlay'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12 col-md-12'>
-                <div className='choose__title section__title style-01'>
-                  <h3 className='subtitle'>_EN İYİ BAR & KAFE</h3>
-                  <h2 className='title'>
-                    İnsanlar neden 
-                    <span> Indigo Bar'ı </span>
-                    seçiyor?
-                  </h2>
-                  {/* <p className='text mt-30'>
-                  Eğlence anlayışına farklılık getiren, Lefkoşa Suriçi’nin bugünkü halini almasına öncülük eden Çıkmaz Sokak Partileri bünyesinde INDIGO Bar&Lounge sıcak atmosferi, birbirinden lezzetli kokteylleri ve eşsiz dokusuyla Ağustos 2020'den bugüne siz değerli müşterilerine hizmet vermeyi sürdürüyor...
-                  </p> */}
-                </div>
-              </div>
-              <div className='col-lg-12 col-md-12'>
-                <div className='row'>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>01.</span>
-                      <h4 className='title'>Tarihi Çevre</h4>
-                      <p className='text'>
-                       "Duvarlarla çevrili" şehir, keşfedilmesi harika olan tarihi bir yerdir.
-                      </p>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>02.</span>
-                      <h4 className='title'>Geniş Bar Seçimi</h4>
-                      <p className='text'>
-                        Petro will helps to make contact with a perfect deal.
-                      </p>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>03.</span>
-                      <h4 className='title'>Sakin ortam</h4>
-                      <p className='text'>
-                        Randevu gecesi gel, arkadaşlarınla gel. Seveceğinize söz veriyoruz.
-                      </p>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-sm-6'>
-                    <div className='choose__block mt-50'>
-                      <span className='choose__subtitle'>04.</span>
-                      <h4 className='title'>iyi komşular</h4>
-                      <p className='text'>
-                        Benzer harika çıkışlarla çevrili, memnun kalmayacaksınız.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='shape__img__one'>
-          <img src='assets/images/leaf.png' alt='' />
-        </div>
-      </section>
+    
      
     </main>
        

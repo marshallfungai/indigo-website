@@ -1968,6 +1968,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     padding: 20px;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.03), rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.03)); }
   #exclusive__section .exclusive__block {
+    background-size: cover;
+    min-height: 385px;
     position: relative; }
     #exclusive__section .exclusive__block .exclusive__block__overlay {
       background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.2));
