@@ -2,7 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/bize-ulasin": "pages/bize-ulasin.js",
-  "/": "pages/index.js",
-  "/hakkimizda": "pages/hakkimizda.js"
+  "/bize-ulasin": "pages/bize-ulasin.html",
+  "/components/layout": "pages/components/layout.html",
+  "/galeri": "pages/galeri.html",
+  "/hakkimizda": "pages/hakkimizda.html",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
 }

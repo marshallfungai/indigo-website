@@ -33,11 +33,16 @@ export default function About() {
               <div className='section__title style-01'>
                 <h3 className='subtitle'>_Hakkımızda</h3>
                 <h2 className='title'>
-                  <span>Zengin bir tarihle çevrili </span>
-                   eski şehirde dinlenmek için güzel bir yer..
+                  <span>Suriçi’ndeki Eviniz </span>
+                  Tarihi Suriçi dokusuyla modernliğin harmanlandığı, dünyanın dört bir yanından gelen
+                  lezzetlerin, deneyimin ve yenilikçiliğin bir araya geldiği INDIGO Bar & Lounge 2020 yılından
+                  beri sizlere hizmet vermeye devam ediyor.
                 </h2>
                 <p className='text mt-30'>
-                  Eğlence anlayışına farklılık getiren, Lefkoşa Suriçi’nin bugünkü halini almasına öncülük eden Çıkmaz Sokak Partileri bünyesinde INDIGO Bar&Lounge sıcak atmosferi, birbirinden lezzetli kokteylleri ve eşsiz dokusuyla Ağustos 2020'den bugüne siz değerli müşterilerine hizmet vermeyi sürdürüyor...
+                  2013 yılında bir ilk olarak başlayan ve eğlence anlayışına farklılık getiren, Lefkoşa Suriçi’nin
+                  bugünkü halini almasına öncülük eden Çıkmaz Sokak Partileri bünyesinde INDIGO Bar &
+                  Lounge, sıcak atmosferi, misafirperver personeli, birbirinden lezzetli kokteylleri, eşsiz doku ve
+                  tasarımı ile Lefkoşa’nın gözde mekanlarından biri oldu.
                 </p>
               </div>
               <div className='row'>
