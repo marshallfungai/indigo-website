@@ -1890,7 +1890,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     position: absolute;
     right: -50px;
     bottom: 100px;
-    width: 200px; }
+    width: 280px; }
   #about__section .shape__img__two {
     position: absolute;
     left: -50px;
@@ -2894,5 +2894,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin: 30px 0 25px; }
 #error__section .error__page .text {
   font-size: 24px; }
+
+ /* .contact_map {
+  width: 100%;
+ }  */
 
 /*# sourceMappingURL=style.css.map */

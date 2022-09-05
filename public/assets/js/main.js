@@ -188,6 +188,16 @@
 
     };
 
+
+    /*Whatsapp Widget
+    -----------------------------*/
+    
+    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"905469911203","welcomeMessage":"Bize mesaj atın","zIndex":999999,"btnColorScheme":"light"};
+    window.onload = () => {
+    _waEmbed(wa_btnSetting);
+    };
+  
+
     /* Initialize
     -----------------------------*/
     (function ssInit() {
