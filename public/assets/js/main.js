@@ -191,11 +191,7 @@
 
     /*Whatsapp Widget
     -----------------------------*/
-    
     var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"905469911203","welcomeMessage":"Bize mesaj atın","zIndex":999999,"btnColorScheme":"light"};
-
-
-
 
 
     /* Initialize
@@ -204,7 +200,7 @@
 
         clMobileMenu();
         _waEmbed(wa_btnSetting);  //whatsapp
-         //window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'ovygNg9Ec15YKLZ7ye1D'});Pixlee.addSimpleWidget({widgetId:'36975'});}; //Instagram widget
+        //window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'ovygNg9Ec15YKLZ7ye1D'});Pixlee.addSimpleWidget({widgetId:'36975'});}; //Instagram widget
 
     })();
 

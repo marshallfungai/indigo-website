@@ -8,13 +8,7 @@ export default function Gallery() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <Script
-                src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"
-                strategy="afterInteractive"
-                onReady={() =>
-                    window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'ovygNg9Ec15YKLZ7ye1D'});Pixlee.addSimpleWidget({widgetId:'36975'});}
-                }
-            />
+
             <main>
                 <div
                     id='banner-section'
@@ -42,7 +36,13 @@ export default function Gallery() {
                     </div>
                 </section>
             </main>
-
+            <Script
+                src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"
+                strategy="beforeInteractive"
+                onReady={() =>
+                    window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'ovygNg9Ec15YKLZ7ye1D'});Pixlee.addSimpleWidget({widgetId:'36975'});}
+                }
+            />
         </Layout>
     );
 }

@@ -123,8 +123,10 @@ export default function Home() {
                     {/*<img src='assets/images/cocktails.jpg' alt="Cocktails" />*/}
                     <Image
 
-                        src="assets/images/cocktails.jpg"
+                        src="/assets/images/cocktails.jpg"
                         alt="Cocktails"
+                        width={400}
+                        height={450}
 
                     />
                   </div>
