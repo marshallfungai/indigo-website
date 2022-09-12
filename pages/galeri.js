@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script';
 import Layout, { siteTitle } from './components/layout';
 
 export default function Gallery() {
@@ -7,6 +8,13 @@ export default function Gallery() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
+            <Script
+                src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"
+                strategy="afterInteractive"
+                onReady={() =>
+                    window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'ovygNg9Ec15YKLZ7ye1D'});Pixlee.addSimpleWidget({widgetId:'36975'});}
+                }
+            />
             <main>
                 <div
                     id='banner-section'
@@ -26,50 +34,15 @@ export default function Gallery() {
                 </div>
                 <section id='gallery__section'>
                     <div className='container'>
-                        <div className='row'>
-                            <div className='col-lg-4 col-sm-6'>
-                                <div className='gallery__block mt-20'>
-                                    <img src='assets/images/gallery/01.jpg' alt='' />
-                                    
-                                </div>
-                            </div>
-                            <div className='col-lg-4 col-sm-6'>
-                                <div className='gallery__block mt-20'>
-                                    <img src='assets/images/gallery/02.jpg' alt='' />
-                                  
-                                </div>
-                            </div>
-                            <div className='col-lg-4 col-sm-6'>
-                                <div className='gallery__block mt-20'>
-                                    <img src='assets/images/gallery/03.jpg' alt='' />
-                                
-                                </div>
-                            </div>
-                            <div className='col-lg-4 col-sm-6'>
-                                <div className='gallery__block mt-20'>
-                                    <img src='assets/images/gallery/04.jpg' alt='' />
-                                
-                                </div>
-                            </div>
-                            <div className='col-lg-4 col-sm-6'>
-                                <div className='gallery__block mt-20'>
-                                    <img src='assets/images/gallery/05.jpg' alt='' />
-                                
-                                </div>
-                            </div>
-                            <div className='col-lg-4 col-sm-6'>
-                                <div className='gallery__block mt-20'>
-                                    <img src='assets/images/gallery/06.jpg' alt='' />
-                                    
-                                </div>
-                            </div>
-                        </div>
+                        <div id="pixlee_container"></div>
+
                     </div>
                     <div className='shape__img__one'>
                         <img src='assets/images/bean.png' alt='' />
                     </div>
                 </section>
             </main>
+
         </Layout>
     );
 }

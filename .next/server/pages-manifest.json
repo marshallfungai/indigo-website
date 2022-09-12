@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/galeri": "pages/galeri.js",
-  "/": "pages/index.js",
-  "/bize-ulasin": "pages/bize-ulasin.js"
+  "/": "pages/index.js"
 }

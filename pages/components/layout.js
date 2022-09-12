@@ -261,8 +261,10 @@ export default function Layout({ children, home }) {
       </div>
     </div>
 
-    <Script strategy={'beforeInteractive'} src="./assets/js/jquery-2.2.4.min.js"></Script>
+
     <Script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></Script>
+    <Script async src='//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js'></Script>
+    <Script strategy={'beforeInteractive'} src="./assets/js/jquery-2.2.4.min.js"></Script>
     <Script strategy={'beforeInteractive'}  src="./assets/js/popper.min.js"></Script>
     <Script strategy={'beforeInteractive'}  src="./assets/js/bootstrap.min.js"></Script>
     <Script strategy={'beforeInteractive'}  src="./assets/js/wow.min.js"></Script>
@@ -272,7 +274,7 @@ export default function Layout({ children, home }) {
     <Script strategy={'beforeInteractive'} src="./assets/js/jarallax.min.js"></Script>
     <Script strategy={'beforeInteractive'} src="./assets/js/swiper-bundle.js"></Script>
     <Script strategy={'beforeInteractive'}  src="./assets/js/backtotop.js"></Script>
-    <Script strategy={'afterInteractive'}src="./assets/js/main.js"></Script>
+    <Script strategy={'afterInteractive'} src="./assets/js/main.js"></Script>
   
 
     </div>

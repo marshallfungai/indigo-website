@@ -30,20 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bize-ulasin": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/bize-ulasin.js"
-    ],
     "/galeri": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/galeri.js"
-    ],
-    "/hakkimizda": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/hakkimizda.js"
     ]
   },
   "ampFirstPages": []
