@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from './components/layout';
+import Image from "next/image";
 
 
 export default function Home() {
@@ -26,8 +27,8 @@ export default function Home() {
               <div className='row align-items-center'>
                 <div className='col-lg-12'>
                   <div className='hero__content__one'>
-                    <h4 className='subtitle'>Antik duvarlı Şehrin tadını çıkarın</h4>
-                    <h1 className='title'>Zengin bir tarihe sahip bir çevre</h1>
+                    <h4 className='subtitle'>Surlarla çevrili şehrin tadını çıkarın</h4>
+                    <h1 className='title'>Zengin tarihe <br/>sahip bir bar</h1>
                     <div className='hero__social mt-30'>
                       <ul className='d-flex'>
                         <li>
@@ -119,15 +120,15 @@ export default function Home() {
               <div className='col-lg-5 col-md-12 col-12'>
                 <div className='about-img-box pl-30 xs-mt-70 md-mt-70'>
                   <div className='about-img style-01'>
-                    <img src='assets/images/cocktails.jpg' alt='about image' />
+                    {/*<img src='assets/images/cocktails.jpg' alt="Cocktails" />*/}
+                    <Image
+
+                        src="assets/images/cocktails.jpg"
+                        alt="Cocktails"
+
+                    />
                   </div>
-                  {/* <div className='content'>
-                  <h4>
-                    <span>15</span>
-                    Years
-                  </h4>
-                  <p>Experience</p>
-                </div> */}
+
                 </div>
               </div>
               <div className='col-lg-7 col-md-12 col-12'>
@@ -179,7 +180,7 @@ export default function Home() {
               <div className='col-lg-6 col-sm-12 col-md-6'>
                 <div className='exclusive__block style-02 active mt-25'>
                   <div className='exclusive__block__overlay'>
-                    <span>01.</span>
+
                     <h3 className='title'>
                       <a href='#'>Yemekler</a>
                     </h3>
@@ -197,7 +198,7 @@ export default function Home() {
               <div className='col-lg-6 col-sm-12 col-md-6'>
                 <div className='exclusive__block style-03 mt-25'>
                   <div className='exclusive__block__overlay'>
-                    <span>02.</span>
+
                     <h3 className='title'>
                       <a href='#'>Kahve</a>
                     </h3>
@@ -223,7 +224,7 @@ export default function Home() {
             <div className='row'>
               <div className='col-lg-6 col-md-6 col-sm-7 col-12'>
                 <div className='call__to__content'>
-                  <span className='subtitle'>Bizimle konuş</span>
+
                   <h2 className='title mt-20'>Rezervasyon yaptırmak</h2>
                   <p className='text mt-30'>
                     Benzersiz atmosferde, tarihin modernlikle harmanlandığı, günün yorgunluğunu atmanız için
