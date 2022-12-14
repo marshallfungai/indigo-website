@@ -1,6 +1,15 @@
 .menuLogo {
     width: 200px;
 }
+li.lang{
+    border: 1px solid #ffffff4f;
+    padding: 0 7px;
+    margin: 2px;
+}
+
+li.lang a{
+   color: #ffffff8c;
+}
 
 /* .hero-bg-01 {
     background-image: 'url(./assets/images/hero/hero-01.jpg)';

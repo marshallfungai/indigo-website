@@ -1,15 +1,22 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
+// import "./styles/globals.css";
 import Link from 'next/link';
 import Script from 'next/script';
-import { useState } from 'react';
+import {useRouter} from "next/router";
+import Navbar from "./navbar";
+import { BrowserView, MobileView } from "react-device-detect";
 
 
 export const siteTitle = 'Indigo Bar and Cafe';
 
 
 export default function Layout({ children, home }) {
+
+  const {locale,locales,asPath } = useRouter();
+  const webMenuLink = 'https://dash.indigobarnicosia.com';
+  const mobileWebMenuLink = 'https://menu.indigobarnicosia.com';
 
   return (
       <div>
@@ -19,9 +26,8 @@ export default function Layout({ children, home }) {
               name="description"
               content="Çıkmaz Sokak Partileri bünyesinde INDIGO Bar & Lounge sıcak atmosferi, birbirinden lezzetli kokteylleri ve eşsiz dokusuyla sizleri bekliyor... "
           />
-
+          <title>{siteTitle}</title>
         </Head>
-
         <link
             rel='shortcut icon'
             type='image/x-icon'
@@ -49,33 +55,18 @@ export default function Layout({ children, home }) {
                           <ul className='d-flex'>
                             <li>
                               <i className='fa-solid fa-phone' />
-                              <span>Hotlne:</span>
+                              <span>Hotline:</span>
                               +90 546 991 12 03
                             </li>
                           </ul>
                         </div>
                       </div>
                       <div className='col-lg-4 col-md-4'>
-                        <div className='brand d-flex justify-content-center'>
 
-                          <img src='assets/images/brand-logo.png' alt='' />
-                        </div>
                       </div>
                       <div className='col-lg-4 col-md-4'>
                         <div className='header__social'>
-                          <ul className='d-flex justify-content-end'>
-                            <li>
-                              <a target='_blank' href='https://www.facebook.com/indigobarnicosia/'>
-                                <i className='fa-brands fa-facebook-f' />
-                              </a>
-                            </li>
-                            <li>
-                              <a target='_blank' href='https://www.instagram.com/indigobarnicosia/'>
-                                <i className='fa-brands fa-instagram' />
-                              </a>
-                            </li>
-
-                          </ul>
+                          <Navbar/>
                         </div>
                       </div>
                     </div>
@@ -133,9 +124,9 @@ export default function Layout({ children, home }) {
 
                               </li>
                               <li >
-                                <a href='https://menu.indigobarnicosia.com'>Menü</a>
-
+                                <a href={webMenuLink}>Menü</a>
                               </li>
+
                               <li >
                                 <Link href="galeri">
                                   <a    title=''>
