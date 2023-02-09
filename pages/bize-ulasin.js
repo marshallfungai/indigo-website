@@ -1,11 +1,15 @@
 import Layout, { siteTitle } from './components/layout';
-import Head from 'next/head'
+import Head from 'next/head';
+import { FormattedMessage, useIntl } from "react-intl";
 
 export default function Contact() {
-    return (
+   const intl = useIntl();
+   const title = intl.formatMessage({ id: "page.home.head.title" });
+ 
+   return (
       <Layout >
         <Head>
-        <title>{siteTitle}</title>
+        <title>{ title }</title>
        </Head>
        <main>
       <div
@@ -17,7 +21,7 @@ export default function Contact() {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='breadcrubms text-center'>
-                  <h2 className='title'>Bize Ulaşın</h2>
+                  <h2 className='title'><FormattedMessage id="page.btn.contactus" /></h2>
                 </div>
               </div>
             </div>
@@ -34,7 +38,7 @@ export default function Contact() {
                   <i className='flaticon-mobile' />
                 </div>
                 <div className='content'>
-                  <h4 className='title'>Telefon numarası</h4>
+                  <h4 className='title'><FormattedMessage id="page.title.tel" /></h4>
                   <ul>
                     <li>+90 546 991 12 03</li>
                   </ul>
@@ -47,7 +51,7 @@ export default function Contact() {
                   <i className='flaticon-placeholder' />
                 </div>
                 <div className='content'>
-                  <h4 className='title'>Adres</h4>
+                  <h4 className='title'><FormattedMessage id="page.title.address" /></h4>
                   <ul>
                     <li>Asmaaltı Sokak, No:38 Nicosia</li>
                   </ul>

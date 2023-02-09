@@ -1485,6 +1485,42 @@ ul.wp-block-latest-posts.is-grid.alignwide {
           color: #ffffff;
           border: 1px solid #6f4e37;
           background-color: #6f4e37; }
+
+          .lang_ul {
+            /* background-color: red; */
+            display: inline-flex;
+          }
+          .lang_ul li.lang a  {
+            color: #ffffff;
+            border: 1px solid #ffffff4f;
+            padding: 8px;
+            margin: 8px;
+          }
+
+          .lang_ul li.lang a:hover  {
+            color: #111010;
+            border: 1px solid #ffffff4f;
+            background-color: #fff;
+            padding: 8px;
+            margin: 8px;
+          }
+
+          
+          .header-area.style-01 .header__top .header__content ul li.lang a{
+            color: #ffffff;
+            border: 1px solid #ffffff4f;
+            padding: 8px;
+            margin: 8px;
+          }
+
+            .header-area.style-01 .header__top .header__content ul li.lang a:hover {
+              color: #111010;
+              border: 1px solid #ffffff4f;
+              background-color: #fff;
+              padding: 8px;
+              margin: 8px;
+            }
+
   .header-area.style-01 .header-toggle-menu {
     display: none;
     width: 40px;
@@ -1548,7 +1584,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     top: 21px;
     left: 50%;
     margin-left: -23px;
-    font: 0/0 a;
+    font: 0/0 ;
     text-shadow: none; }
     @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) and (max-width: 1600px) {
       .header-main-menu .header-overlay-close {

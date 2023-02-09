@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {useRouter} from "next/router";
+import './locale-switcher.module.css';
 
 export default function LocaleSwitcher() {
     const { locales, locale, pathname, query, asPath } = useRouter();
@@ -7,18 +8,14 @@ export default function LocaleSwitcher() {
 
     return(
         <>
-            {otherLocales.map((locale)=>{
-                return (
-                    <Link
-                        key={locale}
-                        href={{ pathname, query }}
-                        as={asPath}
-                        locale={locale}
-                    >
-                        <a>Switch to &quot;{locale}&quot;</a>
-                    </Link>
-                );
-            })}
+            {[...locales].sort().map((locale, index) => (
+             <li key={index} className="lang">
+            <Link key={locale} href="/" locale={locale}>
+              {locale}
+            </Link>
+            </li>
+          ))}
+          
         </>
     );
 }

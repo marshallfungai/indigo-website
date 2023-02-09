@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
-// import "./styles/globals.css";
 import Link from 'next/link';
 import Script from 'next/script';
 import {useRouter} from "next/router";
 import Navbar from "./navbar";
-import { BrowserView, MobileView } from "react-device-detect";
+import { FormattedMessage, useIntl } from "react-intl";
+import getConfig from 'next/config';
+import LocaleSwitcher from "./locale-switcher";
 
 
 export const siteTitle = 'Indigo Bar and Cafe';
@@ -17,6 +18,18 @@ export default function Layout({ children, home }) {
   const {locale,locales,asPath } = useRouter();
   const webMenuLink = 'https://dash.indigobarnicosia.com';
   const mobileWebMenuLink = 'https://menu.indigobarnicosia.com';
+  const { publicRuntimeConfig } = getConfig();
+
+  ///CSS
+  const animateCss = publicRuntimeConfig.staticFolder + 'assets/css/animate.css';
+  const bootstrapCss = publicRuntimeConfig.staticFolder + 'assets/css/bootstrap.min.css';
+  const allMinCss = publicRuntimeConfig.staticFolder + 'assets/css/all.min.css';
+  const fontAwesomeCss = publicRuntimeConfig.staticFolder + 'assets/css/fontawesome.min.css';
+  const flaticonCss = publicRuntimeConfig.staticFolder + 'assets/fonts/flaticon.css';
+  const owlCarouselCss = publicRuntimeConfig.staticFolder + 'assets/css/owl.carousel.min.css';
+  const swiperBundleCss = publicRuntimeConfig.staticFolder + 'assets/css/swiper-bundle.css';
+  const backToTopCss = publicRuntimeConfig.staticFolder + 'assets/css/backtotop.css';
+  const styleCss = publicRuntimeConfig.staticFolder + 'assets/css/style.css';
 
   return (
       <div>
@@ -33,15 +46,15 @@ export default function Layout({ children, home }) {
             type='image/x-icon'
             href='assets/images/favicon.png'
         />
-        <link rel='stylesheet' href='assets/css/animate.css' />
-        <link rel='stylesheet' href='assets/css/bootstrap.min.css' />
-        <link rel='stylesheet' href='assets/css/all.min.css' />
-        <link rel='stylesheet' href='assets/css/fontawesome.min.css' />
-        <link rel='stylesheet' href='assets/fonts/flaticon.css' />
-        <link rel='stylesheet' href='assets/css/owl.carousel.min.css' />
-        <link rel='stylesheet' href='assets/css/swiper-bundle.css' />
-        <link rel='stylesheet' href='assets/css/backtotop.css' />
-        <link rel='stylesheet' href='assets/css/style.css' />
+        <link rel='stylesheet' href={animateCss} />
+        <link rel='stylesheet' href={bootstrapCss } />
+        <link rel='stylesheet' href={allMinCss}/>
+        <link rel='stylesheet' href={fontAwesomeCss}/>
+        <link rel='stylesheet' href={flaticonCss}/>
+        <link rel='stylesheet' href={owlCarouselCss}/>
+        <link rel='stylesheet' href={swiperBundleCss} />
+        <link rel='stylesheet' href={backToTopCss} />
+        <link rel='stylesheet' href={styleCss} />
 
         <header id='header-sticky' className='header-area style-01'>
           <div className='header__top d-none d-lg-block d-md-block'>
@@ -62,7 +75,7 @@ export default function Layout({ children, home }) {
                         </div>
                       </div>
                       <div className='col-lg-4 col-md-4'>
-
+                       
                       </div>
                       <div className='col-lg-4 col-md-4'>
                         <div className='header__social'>
@@ -86,14 +99,14 @@ export default function Layout({ children, home }) {
                           <a href='/' className='logo'>
                             <img className='menuLogo' src='assets/images/logo.png' alt='Indigo Bar' />
                             {/* <Image
-                          priority
-                          src="/assets/images/logo.png"
-                          className={''}
-                          layout = 'responsive'
-                          height={28}
-                          width={44}
-                          alt={siteTitle}
-                        /> */}
+                                  priority
+                                  src="/assets/images/logo.png"
+                                  className={''}
+                                  layout = 'responsive'
+                                  height={28}
+                                  width={44}
+                                  alt={siteTitle}
+                                /> */}
                           </a>
                         </div>
                       </div>
@@ -110,7 +123,7 @@ export default function Layout({ children, home }) {
                               <li>
                                 <Link href="/">
                                   <a title=''>
-                                    Ana Sayfa
+                                   <FormattedMessage id="page.menu.home" />
                                   </a>
                                 </Link>
 
@@ -118,19 +131,19 @@ export default function Layout({ children, home }) {
                               <li >
                                 <Link href="hakkimizda">
                                   <a  title=''>
-                                    Hakkımızda
+                                  <FormattedMessage id="page.menu.hakkimizda" />
                                   </a>
                                 </Link>
 
                               </li>
                               <li >
-                                <a href={webMenuLink}>Menü</a>
+                                <a href={webMenuLink}><FormattedMessage id="page.menu.menu" /></a>
                               </li>
 
                               <li >
                                 <Link href="galeri">
                                   <a    title=''>
-                                    Galeri
+                                  <FormattedMessage id="page.menu.galeri" />
                                   </a>
                                 </Link>
 
@@ -138,7 +151,7 @@ export default function Layout({ children, home }) {
                               <li >
                                 <Link href="bize-ulasin">
                                   <a   title=''>
-                                    Rezervasyon
+                                  <FormattedMessage id="page.menu.rezerve" />
                                   </a>
                                 </Link>
 
@@ -154,16 +167,21 @@ export default function Layout({ children, home }) {
                           </nav>
                         </div>
                       </div>
-                      <div className='col-xl-2 col-lg-3 col-md-3 col-12'>
+                      <div className='col-xl-2 col-lg-4 col-md-4 col-12'>
+                        <div className='d-flex justify-content-lg-end'>
+                        
                         <div className='header-btn d-flex justify-content-lg-end'>
                           <a
                               href='https://menu.indigobarnicosia.com'
                               className='btn btn-secondary xs-mt-35'
                           >
                             <i className='flaticon-right icon-arrow before' />
-                            <span className='label'>Menü Listesi</span>
+                            <span className='label'><FormattedMessage id="page.btn.menulist" /></span>
                             <i className='flaticon-right icon-arrow after' />
                           </a>
+                          
+                        </div>
+                        <ul className='lang_ul'><LocaleSwitcher/></ul>
                         </div>
                       </div>
                     </div>
@@ -178,14 +196,13 @@ export default function Layout({ children, home }) {
         {!home && (
             <div className={styles.backToHome}>
               <Link href="/">
-                <a>← Back to home</a>
+                <a>← <FormattedMessage id="page.btn.backtohome" /></a>
               </Link>
             </div>
         )}
 
         <footer id='footer-section' className='footer-area'>
           <div className='overlay'>
-
             <div className='container'>
               <div className='row'>
                 <div className='col-lg-12'>
@@ -257,7 +274,6 @@ export default function Layout({ children, home }) {
         <Script strategy={'beforeInteractive'} src="./assets/js/swiper-bundle.js"></Script>
         <Script strategy={'beforeInteractive'}  src="./assets/js/backtotop.js"></Script>
         <Script strategy={'afterInteractive'} src="./assets/js/main.js"></Script>
-
 
       </div>
   );

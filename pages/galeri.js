@@ -1,12 +1,17 @@
 import Head from 'next/head'
 import Script from 'next/script';
 import Layout, { siteTitle } from './components/layout';
+import { FormattedMessage, useIntl } from "react-intl";
 
 export default function Gallery() {
+  
+    const intl = useIntl();
+    const title = intl.formatMessage({ id: "page.hakkimizda.head.title" });
+  
     return (
         <Layout >
             <Head>
-                <title>{siteTitle}</title>
+                <title>{title}</title>
             </Head>
 
             <main>

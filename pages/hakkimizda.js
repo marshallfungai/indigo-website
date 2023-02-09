@@ -1,9 +1,13 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from './components/layout';
-
+import { FormattedMessage, useIntl } from "react-intl";
 
 
 export default function About() {
+
+  const intl = useIntl();
+  const title = intl.formatMessage({ id: "page.hakkimizda.head.title" });
+
     return (
        <Layout >
         <Head>
@@ -19,7 +23,7 @@ export default function About() {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='breadcrubms text-center'>
-                  <h2 className='title'>HAKKIMIZDA</h2>
+                  <h2 className='title'><FormattedMessage id="page.home.hakkimizda.h3" /></h2>
                 </div>
               </div>
             </div>
@@ -31,21 +35,17 @@ export default function About() {
           <div className='row align-items-center'>
             <div className='col-lg-7 col-md-12 col-12'>
               <div className='section__title style-01'>
-                <h3 className='subtitle'>_Hakkımızda</h3>
+                <h3 className='subtitle'>_<FormattedMessage id="page.home.hakkimizda.h3" /></h3>
                 <h2 className='title'>
-                  <span>Suriçi’ndeki Eviniz </span>
+                  <span><FormattedMessage id="page.home.hakkimizda.h2" /></span>
                   
                 </h2>
                 <p className='text mt-30'>
-                Tarihi Suriçi dokusuyla modernliğin harmanlandığı, dünyanın dört bir yanından gelen
-                  lezzetlerin, deneyimin ve yenilikçiliğin bir araya geldiği INDIGO Bar & Lounge 2020 yılından
-                  beri sizlere hizmet vermeye devam ediyor.
+                  <FormattedMessage id="page.home.hakkimizda.p1" />
                 </p>
                 <p className='text mt-30'>
-                  2013 yılında bir ilk olarak başlayan ve eğlence anlayışına farklılık getiren, Lefkoşa Suriçi’nin
-                  bugünkü halini almasına öncülük eden Çıkmaz Sokak Partileri bünyesinde INDIGO Bar &
-                  Lounge, sıcak atmosferi, misafirperver personeli, birbirinden lezzetli kokteylleri, eşsiz doku ve
-                  tasarımı ile Lefkoşa’nın gözde mekanlarından biri oldu.
+                  
+                  <FormattedMessage id="page.home.hakkimizda.p2" />
                 </p>
               </div>
               <div className='row'>
@@ -93,16 +93,12 @@ export default function About() {
                   <div className='exclusive__block__overlay'>
                     <span>01.</span>
                     <h3 className='title'>
-                      <a href='#'>Yemekler</a>
+                      <a href='#'><FormattedMessage id="page.hakkimizda.foodblck1.h3" /></a>
                     </h3>
                     <p className='text'>
-                      ‘İyi bir aşçı, mutluluğu dağıtan bir büyücü gibidir’ sözünden yola çıkarak bizi tercih eden her
-                      müşterimize mutluluk dağıtmayı görev bildik.
+                      <FormattedMessage id="page.hakkimizda.foodblck1.p" />
                     </p>
-                      <p className='text'>
-                      Soğuk kış günlerinde içinizi ısıtacak eşsiz çorbamız, ev yapımı hamburgerlerimiz ve birbirinden
-                      güzel bar yemeklerimizle sizleri mutlu edeceğimiz konusunda iddialıyız.
-                    </p>
+                      
                   </div>
                 </div>
               </div>
@@ -111,12 +107,10 @@ export default function About() {
                   <div className='exclusive__block__overlay'>
                     <span>02.</span>
                     <h3 className='title'>
-                      <a href='#'>Kahve</a>
+                    <a href='#'><FormattedMessage id="page.hakkimizda.foodblck2.h3" /></a>
                     </h3>
                     <p className='text'>
-                      100 yılı aşkın tecrübesiyle dünyaca ünlü İtalyan kahve markası Bristot Coffee’nin eşsiz kahve
-                      çekirdekleri, INDIGO Bar’ın baristaları ellerinde eşsiz bir sanat eserine dönüşüyor. Sizlere de
-                      sadece en sevdiğiniz kahve çeşitlerini INDIGO Bar’da keyifle içmek kalıyor.
+                       <FormattedMessage id="page.hakkimizda.foodblck2.p" />
                     </p>
 
                   </div>
@@ -129,8 +123,6 @@ export default function About() {
           <img src='assets/images/leaf.png' alt='' />
         </div>
       </section>
-    
-     
     </main>
        
       </Layout>

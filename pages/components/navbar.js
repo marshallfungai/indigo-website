@@ -17,9 +17,7 @@ export default function Navbar() {
                     <i className='fa-brands fa-instagram' />
                 </a>
             </li>
-            <li>EN</li>
-            <li>TR</li>
-            <LocaleSwitcher/>
+       
         </ul>
     );
 }
